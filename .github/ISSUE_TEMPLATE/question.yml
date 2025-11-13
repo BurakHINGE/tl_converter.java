@@ -1,0 +1,20 @@
+name: 💬 Question / Soru
+description: Ask a question about the project / Proje hakkında bir soru sor.
+title: "[QUESTION] <Short summary / Kısa açıklama>"
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 💬 Question / Soru
+        Need clarification? Ask your question below. / Bir konuda emin değil misin? Sorunu aşağıya yaz.
+  - type: input
+    id: topic
+    attributes:
+      label: Topic / Konu
+      placeholder: e.g., Exchange rate logic / Örn. Kur oranı hesaplama mantığı
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question / Sorun
+      placeholder: What would you like to understand better? / Hangi konuyu daha iyi anlamak istiyorsun?
