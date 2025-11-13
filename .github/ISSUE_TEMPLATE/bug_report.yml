@@ -1,0 +1,45 @@
+name: 🐞 Bug Report / Hata Bildirimi
+description: Report a bug in the application / Uygulamada bulduğun bir hatayı bildir.
+title: "[BUG] <Short summary / Kısa açıklama>"
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🐛 Bug Report / Hata Bildirimi
+        Please fill in the following details / Lütfen aşağıdaki bilgileri doldur.
+  - type: input
+    id: summary
+    attributes:
+      label: Summary / Hata Özeti
+      description: Describe the issue briefly / Kısaca hatayı açıkla.
+      placeholder: e.g., Wrong conversion rate for USD / Örn. USD dönüşüm oranı yanlış.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce / Hatayı Yeniden Oluşturma Adımları
+      description: How can we reproduce the bug? / Hatayı nasıl yeniden oluşturabiliriz?
+      placeholder: |
+        1. Run the program / Programı çalıştır
+        2. Select USD / USD seç
+        3. Enter 100 / 100 gir
+        4. Wrong result appears / Sonuç hatalı çıkıyor
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Result / Beklenen Sonuç
+      placeholder: What result did you expect? / Doğru olması gereken sonuç neydi?
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Result / Gerçekleşen Sonuç
+      placeholder: What result did you get? / Ne çıktı?
+  - type: input
+    id: env
+    attributes:
+      label: Environment Info / Ortam Bilgileri
+      placeholder: e.g., Java 17, VSCode 1.94, Windows 10
