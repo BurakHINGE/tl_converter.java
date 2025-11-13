@@ -1,0 +1,27 @@
+name: ✨ Feature Request / Özellik İsteği
+description: Suggest a new feature / Yeni bir özellik öner.
+title: "[FEATURE] <Short summary / Kısa açıklama>"
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 💡 Feature Request / Özellik İsteği
+        Got an idea? Great! Please share the details below. / Yeni bir fikrin mi var? Harika! Detayları aşağıya yaz.
+  - type: input
+    id: summary
+    attributes:
+      label: Feature Summary / Özellik Özeti
+      placeholder: e.g., Auto-update exchange rates / Örn. Kur oranlarını otomatik güncelleme özelliği
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Description / Açıklama
+      placeholder: What should this feature do? / Özellik tam olarak ne yapmalı?
+  - type: textarea
+    id: benefits
+    attributes:
+      label: Why is it useful? / Neden Gerekli?
+      placeholder: How does this improve the project or user experience? / Bu özellik projeye veya kullanıcıya nasıl katkı sağlar?
