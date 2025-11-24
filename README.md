@@ -9,15 +9,15 @@
 
 ## 📌 Version Info / Sürüm Bilgisi
 
-- **Version:** v1.0.0
-- **Sürüm:** v1.0.0  
+- **Version:** v1.1.0
+- **Sürüm:** v1.1.0  
 
 ---
 
 | Language / Dil | Link / Bağlantı |
 |----------------|-----------------|
-| 🇬🇧 English  | [English Version](TLConverter.java) |
-| 🇹🇷 Türkçe   | [Türkçe Versiyon](TLConverter.java) |
+| 🇬🇧 English  | [English Version](eng_dollar_converter.java) |
+| 🇹🇷 Türkçe   | [Türkçe Versiyon](tr_tl_converter.java) |
 
 ---
 
@@ -61,7 +61,8 @@ Girilen miktarı **en az sayıda TL banknot ve madeni para** olarak bölen basit
 
 | Version / Sürüm | Date / Tarih | Description / Açıklama |
 |-----------------|--------------|-----------------------|
-| v1.0.0          | 2025-11-21   | First release: minimal TL breakdown / İlk sürüm: girilen miktarı en az TL ile böler |
+| v1.1.0          | 2025-11-25   | Minimal Dollar breakdown has been created. / Girilen miktarı en az Dolar ile böler. |
+| v1.0.0          | 2025-11-21   | Minimal TL breakdown / Girilen miktarı en az TL ile böler |
 
 ---
 
