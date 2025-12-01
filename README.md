@@ -62,7 +62,7 @@ Girilen miktarı **en az sayıda TL banknot ve madeni para** olarak bölen basit
 | Version / Sürüm | Date / Tarih | Description / Açıklama |
 |-----------------|--------------|-----------------------|
 | v1.1.0          | 2025-11-25   | Minimal Dollar breakdown has been created. / Girilen miktarı en az Dolar ile böler. |
-| v1.0.0          | 2025-11-21   | Minimal TL breakdown / Girilen miktarı en az TL ile böler |
+| v1.0.0          | 2025-11-02   | Minimal TL breakdown / Girilen miktarı en az TL ile böler |
 
 ---
 
