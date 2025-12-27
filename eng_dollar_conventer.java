@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class USDConverter {
+public class eng_dollar_conventer {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
