@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TLConverter {
+public class tr_tl_conventer {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
